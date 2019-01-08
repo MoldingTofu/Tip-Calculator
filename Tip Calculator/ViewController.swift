@@ -24,9 +24,6 @@ class ViewController: UIViewController {
         view.endEditing(true)
     }
     
-    @IBAction func onChange(_ sender: Any) {
-    }
-    
     @IBAction func calculateTip(_ sender: Any) {
         let bill = Double(billField.text!) ?? 0
         let tips = [0.15, 0.18, 0.2]

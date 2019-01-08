@@ -8,7 +8,9 @@ Time spent: **0** hours spent in total
 
 ## User Stories
 
-* [ ] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [x] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+
+The following **additional** features are implemented:
 
 * [ ] Settings page to change the default tip percentage.
 * [ ] UI animations
