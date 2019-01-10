@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        billField.becomeFirstResponder()
     }
 
     @IBAction func onTap(_ sender: Any) {
@@ -30,8 +31,13 @@ class ViewController: UIViewController {
         let tip = bill * tips[tipControl.selectedSegmentIndex]
         let total = bill + tip
         
-        tipLabel.text = String(format: "$%.2f", tip)
-        totalLabel.text = String(format: "$%.2f", total)
+        if (bill == 0) {
+            tipLabel.text = ""
+            totalLabel.text = ""
+        } else {
+            tipLabel.text = String(format: "$%.2f", tip)
+            totalLabel.text = String(format: "$%.2f", total)
+        }
     }
 }
 
