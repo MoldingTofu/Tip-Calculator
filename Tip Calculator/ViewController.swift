@@ -19,6 +19,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         billField.becomeFirstResponder()
+        tipLabel.adjustsFontSizeToFitWidth = true
+        totalLabel.adjustsFontSizeToFitWidth = true
     }
 
     @IBAction func onTap(_ sender: Any) {
@@ -37,6 +39,7 @@ class ViewController: UIViewController {
         } else {
             tipLabel.text = String(format: "$%.2f", tip)
             totalLabel.text = String(format: "$%.2f", total)
+            
         }
     }
 }
