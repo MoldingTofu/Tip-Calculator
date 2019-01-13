@@ -4,7 +4,7 @@
 
 Submitted by: **Jeremy Chang**
 
-Time spent: **0** hours spent in total
+Time spent: **2** hours spent in total
 
 ## User Stories
 
