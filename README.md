@@ -26,6 +26,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+<iframe src="https://giphy.com/embed/1AibCt9vruutPoH3ei" width="268" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/1AibCt9vruutPoH3ei">via GIPHY</a></p>
+
 <img src='https://gph.is/2QHO844' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [giphy](http://www.giphy.com/).
